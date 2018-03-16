@@ -111,3 +111,12 @@ a:hover::after	{
 	max-width: 700px;
 	}
 	
+.playthru-box {
+	max-width: 800px;
+	}
+	
+.playthru {
+	width: 360px;
+	margin: 5px 5px 5px 0;
+	}
+	
