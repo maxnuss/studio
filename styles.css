@@ -131,7 +131,6 @@ a:hover::after	{
 
 } /* max-width 1150px */
 
-/* Responsive */
 @media only screen and (max-width: 900px) {
 	
 	body {
@@ -142,4 +141,16 @@ a:hover::after	{
 		margin-left: 30px;
 		}
 
-} /* max-width 1150px */
+	} /* max-width 900px */
+
+@media only screen and (max-width: 500px) {
+	
+	body {
+		font-size: .8em;
+		}
+	
+	.content-box {
+		margin-left: 30px;
+		}
+
+	} /* max-width 500px */
