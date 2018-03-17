@@ -101,7 +101,8 @@ a:hover::after	{
 	width: auto;
 	}
 	
-.max-drawing {
+.max-drawing,
+.ayah-logo {
 	height: 130px;
 	margin: 13px 40px 0 0;
 	}
@@ -110,7 +111,8 @@ a:hover::after	{
 	margin-left: 257px;
 	max-width: 700px;
 	}
-	
+
+/* PlayThru */
 .playthru-box {
 	max-width: 800px;
 	}
@@ -124,6 +126,10 @@ a:hover::after	{
 	
 /* Responsive */
 @media only screen and (max-width: 1150px) {
+
+	.header {
+		margin: 40px 0 0 50px;
+		}
 	
 	.content-box {
 		margin-left: 50px;
@@ -135,6 +141,10 @@ a:hover::after	{
 	
 	body {
 		font-size: 1em;
+		}
+
+	.header {
+		margin: 40px 0 0 30px;
 		}
 	
 	.content-box {
@@ -149,8 +159,4 @@ a:hover::after	{
 		font-size: .8em;
 		}
 	
-	.content-box {
-		margin-left: 30px;
-		}
-
 	} /* max-width 500px */
