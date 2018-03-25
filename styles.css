@@ -49,16 +49,25 @@ body {
 		inset #f7ecf8 0 0 0 23px;
 	}
 
-p {
+p, ul, ol {
 	line-height: 150%;
+	}
+	
+li {
+	margin: 10px 0;
 	}
 
 h1, h2, h3 {
+	margin: 0;
 	font-family: 'Rammetto One', sans-serif;
 	}
 	
 .medium {
 	font-size: 120%;
+	}
+	
+.no-break {
+	white-space: nowrap;
 	}
 	
 a {
@@ -90,27 +99,50 @@ a:hover::after	{
 	margin-top: 0;
 	}
 	
-.header {
+.standard-img {
+	margin: 20px 0;
+	border: 1px solid #397096;
+	max-width: 100%;
+	}
+	
+.content-double {
 	display: flex;
 	margin: 40px 0 0 100px;
 	max-width: 850px;
+	align-items: flex-start;
 	}
 	
-.header-left,
-.header-right {
+.content-double-left,
+.content-double-right {
 	width: auto;
 	}
 	
-.max-drawing,
+.standard-left-image,
 .ayah-logo {
 	height: 130px;
-	margin: 13px 40px 0 0;
+	margin: 10px 40px 0 0;
+	transition: all .1s ease;
+	}
+	
+.standard-left-image:hover {
+	opacity: 0.7;
+	margin-top: 5px;
+	}
+
+.max-drawing {
+	height: 130px;
+	margin: 0 40px 0 0;
 	}
 	
 .content-box {
-	margin-left: 257px;
+	margin: 30px 0 0 257px;
 	max-width: 700px;
 	}
+	
+.post-email-period {
+	margin-left: -4px;
+	}
+
 
 /* PlayThru */
 .playthru-box {
@@ -127,7 +159,7 @@ a:hover::after	{
 /* Responsive */
 @media only screen and (max-width: 1150px) {
 
-	.header {
+	.content-double {
 		margin: 40px 0 0 50px;
 		}
 	
@@ -143,7 +175,7 @@ a:hover::after	{
 		font-size: 1em;
 		}
 
-	.header {
+	.content-double {
 		margin: 40px 0 0 30px;
 		}
 	
