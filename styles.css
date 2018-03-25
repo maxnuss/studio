@@ -112,9 +112,12 @@ a:hover::after	{
 	align-items: flex-start;
 	}
 	
-.content-double-left,
+.content-double-left {
+	width: 21%;
+	}
+
 .content-double-right {
-	width: auto;
+	width: 79%;
 	}
 	
 .standard-left-image,
